@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script is an advanced processing pipeline for Egyptian Arabic text.
 It reads a raw text file line-by-line and applies spelling corrections (using a custom dictionary),
 normalizes numbers (Eastern to Western), removes diacritics, and filters out junk phrases.
