@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 I made this script to go through my folders and clean up the translation pairs.
 It looks at the length of the sentences. If one is super long and the other is short, 
 it's probably a bad translation, so I throw it out.
