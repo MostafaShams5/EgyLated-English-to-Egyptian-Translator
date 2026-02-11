@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script is for debugging my dataset files.
 It uses a very robust "Language Boundary Slice" method to separate English from Arabic.
 It doesn't rely on a specific separator like "|||". Instead, it looks for the first
