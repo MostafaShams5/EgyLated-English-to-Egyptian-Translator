@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 Sometimes the text I scrape is messy. It has HTML junk like "&nbsp;" instead of space,
 or "&quot;" instead of a quote mark.
 This script is a cleaner. It fixes those HTML entities and normalizes quotes.
