@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script takes one massive corpus file and splits it into smaller parts.
 It calculates how many lines to put in each part (roughly 10% chunks here)
 and saves them into a new folder so they are easier to work with.
