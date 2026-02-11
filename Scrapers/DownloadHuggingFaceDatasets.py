@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script downloads big English datasets from Hugging Face.
 It lets me set a size limit (like 500MB) for each dataset so I don't download the entire thing, which could be terabytes.
 It saves the data into chunked text files.
