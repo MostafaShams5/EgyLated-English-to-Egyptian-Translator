@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This is the big analysis script. 
 It does a deep dive into the corpus, making histograms, word clouds, 
 and checking detailed quality metrics like weird characters or mixed scripts.
