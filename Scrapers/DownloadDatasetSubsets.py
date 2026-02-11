@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script downloads specific, smaller datasets (like subtitles or lyrics) to add
 variety to the corpus. It has a progress bar and a strict download limit.
 """
