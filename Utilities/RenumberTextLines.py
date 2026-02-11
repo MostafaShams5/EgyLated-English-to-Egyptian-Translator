@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script fixes broken numbering in a text file.
 Sometimes my files get messed up numbers (like 1, 2, 5, 100).
 This script reads the file and rewrites it with clean, sequential numbers (1, 2, 3...) after a certain missnumbered line.
