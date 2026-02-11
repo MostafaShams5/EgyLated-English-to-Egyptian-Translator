@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 The dataset I got is in a format called Arrow (from Hugging Face). 
 It's too big to open in a normal text editor.
 So I wrote this to chop it up into 50 smaller text files that are easier to handle.
