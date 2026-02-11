@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 I use this script to clean up messy text files. 
 It removes emojis, weird symbols, and lines that are just gibberish.
 It also splits the clean text into smaller files so I don't have one massive file.
