@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script checks the basic health of my processed text files.
 It looks for duplicates, weird length ratios, and counts words.
 It's a quick sanity check to see if the cleaning worked.
@@ -13,12 +11,9 @@ from collections import Counter
 import pandas as pd
 import glob
 
-# Settings
 EXTREME_RATIO_THRESHOLD = 3.0 
 TOP_N_DUPLICATES = 50         
 DELAY_BETWEEN_FILES = 20      
-
-# --- Functions ---
 
 def clean_text_for_vocab(text):
     """
@@ -72,8 +67,6 @@ def run_analysis(df, title="Analysis Report"):
     print(f"||   {title.upper()}   ||")
     print("="*70 + "\n")
 
-    # 1. Stats
-    print("--- 1. Stats ---")
     df['eng_len_word'] = df['english'].str.split().str.len()
     df['ara_len_word'] = df['arabic'].str.split().str.len()
     print(f"Total pairs: {len(df):,}")
@@ -81,8 +74,6 @@ def run_analysis(df, title="Analysis Report"):
     print(f"Avg Arabic length: {df['ara_len_word'].mean():.2f} words")
     print("\n")
 
-    # 2. Duplicates
-    print("--- 2. Duplicate Analysis ---")
     total_pairs = len(df)
     
     duplicate_counts = df.groupby(['english', 'arabic']).size()
@@ -105,7 +96,6 @@ def run_analysis(df, title="Analysis Report"):
         print("\nNo duplicates found.")
     print("\n")
 
-    # 3. Ratios
     print(f"--- 3. Length Ratios (Limit: {EXTREME_RATIO_THRESHOLD:.1f}x) ---")
     df_ratio = df.drop_duplicates(subset=['english', 'arabic']) 
     df_ratio = df_ratio[(df_ratio['ara_len_word'] > 0) & (df_ratio['eng_len_word'] > 0)].copy()
@@ -154,7 +144,6 @@ def main():
             print(f"\n--- Waiting {DELAY_BETWEEN_FILES} seconds... ---")
             time.sleep(DELAY_BETWEEN_FILES)
 
-    # --- Combined Stats ---
     if not all_dataframes:
         print("No data parsed.")
         return
