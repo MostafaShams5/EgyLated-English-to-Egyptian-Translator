@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 I've got all these separate files ending in '-P.txt'.
 This script grabs them all, puts them into one big list, removes duplicates,
 sorts them alphabetically, and saves one giant 'COMBINED_CORPUS.txt'.
