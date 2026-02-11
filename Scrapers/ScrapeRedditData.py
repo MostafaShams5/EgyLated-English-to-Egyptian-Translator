@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-Author: Shams
-Description:
 This is the main Reddit scraper. It runs multiple 'workers' (threads) at the same time
 to grab posts from different Egyptian subreddits. 
 It uses a local database (SQLite) to remember which posts I already have so I don't 
