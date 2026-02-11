@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 I have a bunch of text files where English and Arabic are separated by different things.
 Some use " -> ", some use " - ".
 I want them all to look the same: "ID. English ||| Arabic".
