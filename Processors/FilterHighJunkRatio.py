@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script cleans a text file IN-PLACE by removing lines that contain a high
 ratio of "junk" or mojibake characters. It defines a set of allowed characters
 (Arabic, English, numbers) and deletes any line where the percentage of
