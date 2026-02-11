@@ -1,5 +1,12 @@
 # English ↔ Egyptian Arabic Transformer
 
+<p align="center">
+  <img src="demo_english.png" alt="English Input Source" width="45%">
+  <img src="demo_arabic.png" alt="Egyptian Arabic Model Output" width="45%">
+  <br>
+  <em>Illustration of EgyLated subtitles on <strong>Marty Supreme (2025)</strong> (must watch it!)</em>
+</p>
+
 This project develops a translation system for the Egyptian dialect (Masri), built entirely from scratch. Rather than fine-tuning an existing model, it implements a custom Encoder-Decoder architecture with stability improvements—like replacing LayerNorm with RMSNorm—and a BPE tokenizer designed to handle irregular spelling and slang. The system produces a robust model that reaches a BLEU score of 28.5, showing that reliable translation is achievable even without huge standard datasets.
 
 ## Data Collection
