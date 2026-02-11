@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script calls the 'yt-dlp' command line tool to download subtitles
 from the YouTube playlists I listed. It then cleans the VTT files (removing
 timestamps and formatting) and saves the raw Arabic text.
