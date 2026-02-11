@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This is a precise tool to fix a numbering error starting at a specific line.
 If I know line 9811 is wrong, I tell this script to find line 9811
 and start renumbering from 9810 onwards.
