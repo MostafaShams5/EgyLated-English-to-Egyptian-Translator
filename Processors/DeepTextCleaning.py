@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This is the heavy-duty cleaner.
 It removes things like subtitles (e.g. "She sighs"), repeated punctuation "...",
 and filters out lines based on specific rules to reduce noise.
