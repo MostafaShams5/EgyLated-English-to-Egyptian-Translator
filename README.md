@@ -1,5 +1,4 @@
-# English ↔ Egyptian Arabic Transformer
-
+# EgyLated: English ↔ Egyptian Arabic Movie Translator
 <p align="center">
   <img src="demo_english.png" alt="English Input Source" width="49%">
   <img src="demo_arabic.png" alt="Egyptian Arabic Model Output" width="49%">
