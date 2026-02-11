@@ -1,8 +1,8 @@
 # English ↔ Egyptian Arabic Transformer
 
 <p align="center">
-  <img src="demo_english.png" alt="English Input Source" width="49%">
-  <img src="demo_arabic.png" alt="Egyptian Arabic Model Output" width="49%">
+  <img src="demo_english.png" alt="English Input Source" width="50%">
+  <img src="demo_arabic.png" alt="Egyptian Arabic Model Output" width="50%">
   <br>
   <em>Illustration of EgyLated subtitles on <strong>Marty Supreme (2025)</strong> (must watch it!)</em>
 </p>
