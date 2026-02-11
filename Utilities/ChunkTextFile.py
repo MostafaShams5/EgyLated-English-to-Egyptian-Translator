@@ -1,6 +1,4 @@
 """
-Author: Shams
-Description:
 This script takes a raw text file (like a book or article) and chops it up into
 manageable chunks. I set it to 350 words per chunk.
 It then writes these chunks into a new file, numbering them like a list.
