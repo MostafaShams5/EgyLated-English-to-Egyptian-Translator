@@ -13,8 +13,8 @@ This project develops a translation system for the Egyptian dialect (Masri), bui
 ### Egyptian Arabic Sources
 *  **Reddit Scraping:** Data was collected from 30+ Egyptian subreddits (e.g., r/Egypt, r/Cairo, r/AlexandriaEgy) using a multi-threaded script to handle Reddit API limits.  
  To avoid duplication, a SQLite database was used so that no two workers would scrape the same post or comment.  This resulted in approximately 250,000 posts and comments.
-*  **YouTube Transcription:** Over 1,700 hours of Egyptian videos were processed, extracting VTT subtitles to capture the real spoken dialect rather than just formal text.
-*  **Generated Parallel Data:** Gemini was used with tailored prompt engineering to create parallel sentences for tricky slang and dialect-specific words, boosting the total count to 700k pairs.
+*  **YouTube Transcription:** Over 3,100 hours of Egyptian videos were processed, extracting VTT subtitles to capture the real spoken dialect rather than just formal text.
+*  **Generated Parallel Data:** Gemini was used with tailored prompt engineering to create parallel sentences for tricky slang and dialect-specific words, boosting the total count to 1M pairs.
 
 
 ### English Sources
